@@ -1,0 +1,62 @@
+th, td {
+    border-bottom: 1px solid rgb(247, 243, 243);
+    
+    }
+
+td
+{
+   color: rgb(247, 243, 243);
+}
+.css-serial {
+    counter-reset: serial-number;  /* Set the serial number counter to 0 */
+  }
+  
+  .css-serial td:first-child:before {
+    counter-increment: serial-number;  /* Increment the serial number counter */
+    content: counter(serial-number);  /* Display the counter */
+  }
+    .heading{
+        text-align: center;
+        font-family:'Bookman Old Style';
+        font-size:24px;
+
+    }
+    .insti{
+        font-family:'Cascadia Code PL';
+        font-size:16px;
+        text-align: left;
+    }
+    .info{
+        font-family:'Cascadia Code PL Semilight';
+        font-size:16px;
+        text-align: center
+    }
+    td{
+        text-align: center;
+    }
+    thead{
+        text-align:center;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+        background-color: rgb(247, 243, 243);
+    }
+
+      .hello-msg{
+        font-size: 18px;
+        color: rgb(247, 243, 243);
+        margin-right: 20px;
+      }
+      .col-md-4, .col-md-8{
+          margin-top: 10%;
+      }
+      .center {
+         margin-left: auto;
+         margin-right: auto;
+
+     }
+     footer {
+        text-align: center;
+        padding: 3px;
+        font-weight: bold;
+        color: rgb(247, 243, 243);
+     }
